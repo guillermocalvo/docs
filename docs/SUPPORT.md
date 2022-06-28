@@ -13,5 +13,6 @@ If you have a general question about the library, or how to use it you can
 
 ---
 
+{: #navigation}
 - [Basic Usage](SUPPORT.html){: #prev}
 - [Advanced Usage](SUPPORT.html){: #next}
