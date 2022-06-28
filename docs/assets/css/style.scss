@@ -7,7 +7,14 @@
     display: none
 }
 
-#prev, #next {
+ul#navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 2em;
+  apadding-bottom: 2em;
+}
+
+#navigation #prev, #navigation #next {
   border: 1px solid #dba500;
   background: linear-gradient(#ffe788, #ffce38);
   border-radius: 2px;
@@ -24,18 +31,18 @@
   text-align: center
 }
 
-#prev:hover, #next:hover {
+#navigation #prev:hover, #navigation #next:hover {
   background: linear-gradient(#ffe788, #ffe788);
   background-color: #ffeca0
 }
 
-#prev:before, #next:after {
+#navigation #prev:before, #navigation #next:after {
   font-size: 2em;
   vertical-align: bottom;
 }
 
-#next { float:right }
-#next:after { content: ' 🡆' }
+#navigation #next { float:right }
+#navigation #next:after { content: ' 🡆' }
 
-#prev { float:left }
-#prev:before { content: '🡄 ' }
+#navigation #prev { float:left }
+#navigation #prev:before { content: '🡄 ' }
