@@ -11,6 +11,15 @@ If you have a general question about the library, or how to use it you can
 [send me a message on Twitter](https://twitter.com/gcalvo) or
 [drop me an email](mailto:leakyabstractions@guillermo.dev).
 
+```mermaid
+flowchart TD;
+  A[Deploy to production] --> B{Is it Friday?};
+  B -- Yes --> C[Do not deploy!];
+  B -- No --> D[Run deploy.sh to deploy!];
+  C ----> E[Enjoy your weekend!];
+  D ----> E[Enjoy your weekend!];
+```
+
 ---
 
 {: #navigation}
