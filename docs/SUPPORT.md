@@ -12,6 +12,8 @@ If you have a general question about the library, or how to use it you can
 [send me a message on Twitter](https://twitter.com/gcalvo) or
 [drop me an email](mailto:leakyabstractions@guillermo.dev).
 
+{% include mermaid.html %}
+
 ```mermaid
 flowchart TD;
   A[Deploy to production] --> B{Is it Friday?};
