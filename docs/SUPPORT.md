@@ -1,5 +1,6 @@
 ---
 title: Page title
+mermaid: true
 ---
 
 ## Where to Get Help
@@ -11,8 +12,6 @@ If you think you've found a bug in the library, please
 If you have a general question about the library, or how to use it you can
 [send me a message on Twitter](https://twitter.com/gcalvo) or
 [drop me an email](mailto:leakyabstractions@guillermo.dev).
-
-{% include mermaid.html %}
 
 ```mermaid
 flowchart TD;
