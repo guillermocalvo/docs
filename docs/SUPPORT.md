@@ -1,4 +1,5 @@
 ---
+title: Page title
 ---
 
 ## Where to Get Help
